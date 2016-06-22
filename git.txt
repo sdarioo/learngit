@@ -1,0 +1,22 @@
+I.
+
+git branch <branch>
+git checkout <branch>
+
+or
+
+git checkout -b <branch>
+
+
+II. add + commit files
+
+III. git push -u origin <branch> (git push --set-upstream origin <branch>)
+
+
+==========================
+
+https://www.derekgourlay.com/blog/git-when-to-merge-vs-when-to-rebase/
+Rule of thumb:
+
+    When pulling changes from origin/develop onto your local develop use rebase (git pull --rebase)
+    When finishing a feature branch merge the changes back to develop.
